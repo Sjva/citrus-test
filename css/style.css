@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu.ttf);
+    font-weight: normal;
+    font-style: normal; }
 
 html {
     position: relative;
@@ -65,16 +70,19 @@ body {
 }
 .video-icon a{
     text-decoration: none;
-    margin: 0 18.79px 9px 2px;
+    margin: 0 18.79px 1px 2px;
+}
+.video-icon a:last-child{
+    margin: 0;
 }
 .product-block{
     position: relative;
     text-align: center;
 }
-.product-color{
+.product-color {
     position: absolute;
-    bottom: -10px;
-    left: 3px;
+    bottom: -11px;
+    left: 2px;
 }
 .product-color a{
     display: inline-block;
@@ -83,7 +91,7 @@ body {
     width: 18px;
     height: 18px;
     border-radius: 4px;
-    margin-right: 10px;
+    margin-right: 4px;
     transition: all 0.3s;
 }
 .product-color a:hover{
@@ -101,7 +109,7 @@ body {
 .rating-block{
     display: flex;
     justify-content: space-between;
-    margin: 17px 0 0 -2px;
+    margin: 15px 0 0 0;
 }
 /*REITING*/
 .rating {
@@ -133,6 +141,7 @@ body {
 /*END reiting*/
 .rewiews{
     width: 43%;
+    margin: 0 -3px 0 0;
 }
 .rewiews a{
     font-size: 12px;
@@ -155,7 +164,7 @@ body {
 .discript-code{
     font-size: 10px;
     color: #212121;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
 }
 .discript-code span{
     font-size: 10px;
@@ -192,7 +201,7 @@ body {
     display: flex;
     justify-content: left;
     margin: 8px 0 12px;
-    height: 18.73px;
+    height: 8.73px;
 }
 .discript-memory a{
     display: none;
@@ -202,7 +211,6 @@ body {
     border-radius: 2px;
     margin-right: 10px;
     padding: 3px 2px 0 2px;
-    transition: all 0.3s;
 }
 .discript-memory a:hover{
     color: #7EB105;
@@ -213,6 +221,9 @@ body {
     border-bottom: 1px dashed #7EB105;
     padding: 2px;
 }
+.discrip-coast{
+    margin: 0 1px;
+}
 .discrip-coast p{
     font-size: 10px;
     color: #F6731C;
@@ -221,21 +232,26 @@ body {
 .discrip-coast h4{
     font-family: Ubuntu, sans-serif;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #F6731C;
 }
 .discrip-coast h4 sup{
     font-size: 13px;
 }
+.discrip-coast h4 sup small{
+    vertical-align: top;
+}
 .discrip-coast h4 del{
     font-size: 14px;
     color: #999999;
+    margin-right: 5px;
 }
+
 .discrip-coast h5{
     font-size: 12px;
     color: #7EB105;
     font-weight: bold;
-    margin: 4px 0;
+    margin: 7px 0;
 }
 .discrip-coast h5 span{
     font-size: 12px;
@@ -243,7 +259,7 @@ body {
 }
 .card-product hr{
     border: 0.5px solid #EBEBEB;
-    margin: 4px 0 12px 0;
+    margin: -2px 0 11px 0;
 }
 .footer-icon{
     display: flex;
@@ -251,14 +267,14 @@ body {
 }
 .specifications{
     display: none;
-    margin: 24px 0 11px 0;
+    margin: 27px 0 11px 0;
     transition: all 0.7s;
 }
 .spec-stock img{
     float: left;
     width: 40px;
     height: 40px;
-    margin: -8px 8px 0 0;
+    margin: -8px 9px 0 0;
 }
 .spec-stock h5{
     font-family: Ubuntu, sans-serif;
@@ -267,6 +283,7 @@ body {
     color: #212121;
     overflow: hidden;
     line-height: 14px;
+    margin: -2px 0 0 0;
 }
 .spec-stock p{
     font-size: 11px;
@@ -274,18 +291,18 @@ body {
     line-height: 14px;
 }
 .spec-fast h5{
-    margin: 16px 0 4px 0;
+    margin: 23px 0 4px 0;
     font-size: 14px;
     font-weight: bold;
     color: #212121;
 }
 .spec-fast ul {
     list-style: none;
-    margin: 0 0 0 25px;
+    margin: 0 0 0 23px;
 }
 .spec-fast ul li{
     font-size: 14px;
-    line-height: 19px;
+    line-height: 18.8px;
     color: #999999;
 }
  ul li::before {
@@ -302,9 +319,9 @@ ul li::before {
     color: #999999;
     font-weight: bold;
     display: inline-block;
-    width: 15px;
+    width: 17px;
     margin-left: -1em;
-    font-size: 17px;
+    font-size: 18px;
 }
 /*tooltip*/
 .tooltip {
@@ -326,7 +343,6 @@ ul li::before {
     left: 50%;
     margin-left: -75px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transition: all 0.3s;
 }
 .tooltip .tooltiptext::after {
     content: "";
