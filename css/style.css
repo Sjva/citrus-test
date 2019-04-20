@@ -1,0 +1,369 @@
+
+html {
+    position: relative;
+    min-height: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block; }
+
+a {
+    text-decoration: none;
+    border-color: transparent; }
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0; }
+
+a:active, a:focus {
+    outline: none; }
+
+input {
+    outline: 0 !important; }
+
+button:active, button:focus {
+    outline: none; }
+
+.form-control:focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none; }
+
+button::-moz-focus-inner {
+    border: 0; }
+
+
+body {
+    font-family: Arial,  sans-serif;
+}
+
+#wrapper {
+    position: relative;
+    min-width: 320px;
+    max-width: 100%;
+    min-height: 100%;
+    padding: 40px 0 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: #ccc;
+}
+.card-product{
+    position: relative;
+    width: 249px;
+    height: auto;
+    max-width: 249px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    background: #fff;
+    padding: 18px 16px 5px;
+    transition: all 0.7s;
+    border-radius: 3px;
+}
+.video-icon{
+    display: flex;
+    justify-content: left;
+}
+.video-icon a{
+    text-decoration: none;
+    margin: 0 18.79px 9px 2px;
+}
+.product-block{
+    position: relative;
+    text-align: center;
+}
+.product-color{
+    position: absolute;
+    bottom: -10px;
+    left: 3px;
+}
+.product-color a{
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 2px transparent;
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+.product-color a:hover{
+    box-shadow: 0 0 0 0 #fff, 0 0 0 2px #7EB105;
+}
+.product-color .active{
+    box-shadow: 0 0 0 0 #fff, 0 0 0 2px #7EB105;
+}
+.product-color .dark{
+    background: #454545;
+}
+.product-color .light{
+    background: #FFACA7;
+}
+.rating-block{
+    display: flex;
+    justify-content: space-between;
+    margin: 17px 0 0 -2px;
+}
+/*REITING*/
+.rating {
+    cursor: pointer;
+}
+.rating svg {
+    width: 11.67px;
+    height: 11.67px;
+    fill: #ebebf3;
+    margin-left: 2.33px;
+    float: left;
+}
+.rating svg:active,
+.rating svg:focus,
+.rating svg:hover {
+    fill: #ffca00;
+}
+.active-star{
+    fill: #ffca00 !important;
+}
+.rating-num{
+    overflow: hidden;
+    font-size: 12px;
+    color: #999999;
+    margin-left: 5.17px;
+    display: inline-block;
+}
+
+/*END reiting*/
+.rewiews{
+    width: 43%;
+}
+.rewiews a{
+    font-size: 12px;
+    line-height: normal;
+    text-decoration: underline;
+    color: #7EB105;
+    transition: all 0.3s;
+}
+.rewiews a:hover{
+    text-decoration: underline;
+    color: #999999;
+}
+.rewiews img{
+    float: left;
+    margin: 0 4.76px 0 0;
+}
+.discrip-product{
+    padding: 6px 0 0 0;
+}
+.discript-code{
+    font-size: 10px;
+    color: #212121;
+    margin-bottom: 6px;
+}
+.discript-code span{
+    font-size: 10px;
+    color: #999999;
+}
+.discript-available-hover,
+.discript-available{
+    font-size: 12px;
+    color: #7EB105;
+    margin-bottom: 6px
+}
+.discript-available-hover span,
+.discript-available span{
+    background: #7EB105;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+.discript-available-hover{
+    display: none;
+}
+.discript-name{
+    font-size: 14px;
+    color: #212121;
+    transition: all 0.3s;
+}
+.discript-name:hover{
+    text-decoration: none;
+    color: #7EB105;
+}
+.discript-memory{
+    display: flex;
+    justify-content: left;
+    margin: 8px 0 12px;
+    height: 18.73px;
+}
+.discript-memory a{
+    display: none;
+    font-size: 14px;
+    color: #212121;
+    background: #EEFBE0;
+    border-radius: 2px;
+    margin-right: 10px;
+    padding: 3px 2px 0 2px;
+    transition: all 0.3s;
+}
+.discript-memory a:hover{
+    color: #7EB105;
+}
+.discript-memory .active{
+    color: #7EB105;
+    background: transparent;
+    border-bottom: 1px dashed #7EB105;
+    padding: 2px;
+}
+.discrip-coast p{
+    font-size: 10px;
+    color: #F6731C;
+    margin-bottom: 4px;
+}
+.discrip-coast h4{
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #F6731C;
+}
+.discrip-coast h4 sup{
+    font-size: 13px;
+}
+.discrip-coast h4 del{
+    font-size: 14px;
+    color: #999999;
+}
+.discrip-coast h5{
+    font-size: 12px;
+    color: #7EB105;
+    font-weight: bold;
+    margin: 4px 0;
+}
+.discrip-coast h5 span{
+    font-size: 12px;
+    color: #7EB105;
+}
+.card-product hr{
+    border: 0.5px solid #EBEBEB;
+    margin: 4px 0 12px 0;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-around;
+}
+.specifications{
+    display: none;
+    margin: 24px 0 11px 0;
+    transition: all 0.7s;
+}
+.spec-stock img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: -8px 8px 0 0;
+}
+.spec-stock h5{
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #212121;
+    overflow: hidden;
+    line-height: 14px;
+}
+.spec-stock p{
+    font-size: 11px;
+    color: #F6731C;
+    line-height: 14px;
+}
+.spec-fast h5{
+    margin: 16px 0 4px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #212121;
+}
+.spec-fast ul {
+    list-style: none;
+    margin: 0 0 0 25px;
+}
+.spec-fast ul li{
+    font-size: 14px;
+    line-height: 19px;
+    color: #999999;
+}
+ ul li::before {
+     content: "\2022";
+     color: #999999;
+     font-weight: bold;
+     width: 6px;
+     display: inline-block;
+     margin-left: -1em;
+     font-size: 16px;
+}
+ul li::before {
+    content: "\2022";
+    color: #999999;
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+    margin-left: -1em;
+    font-size: 17px;
+}
+/*tooltip*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #212121;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: all 0.3s;
+}
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/*END tooltip*/
+
+/*HOVER*/
+.card-product:hover{
+    border: 1px solid #7EB105;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    transition: all 0.7s;
+}
+.card-product:hover .discript-available-hover,
+.card-product:hover .discript-memory a,
+.card-product:hover .specifications {
+    display: block;
+    transition: all 0.7s;
+}
+.card-product:hover .specifications {
+    z-index: 1;
+}
+.card-product:hover .discript-available,
+.card-product:hover .discrip-coast p{
+    display: none;
+}
+.card-product:hover .discrip-coast{
+    padding: 14px 0 0 0;
+}

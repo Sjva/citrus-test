@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+
+
+    <symbol id="star-b" width="12" height="12" viewBox="0 0 12 12" >
+        <path d="M11.8333 4.38999L7.63913 4.02832L5.99996 0.166656L4.36079 4.03416L0.166626 4.38999L3.35163 7.14916L2.39496 11.25L5.99996 9.07416L9.60496 11.25L8.65413 7.14916L11.8333 4.38999ZM5.99996 7.98332L3.80663 9.30749L4.38996 6.81082L2.45329 5.13082L5.00829 4.90916L5.99996 2.55832L6.99746 4.91499L9.55246 5.13666L7.61579 6.81666L8.19913 9.31332L5.99996 7.98332Z" fill="#DEDEDE"/>
+    </symbol>
+
+    <symbol id="gold-star" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5.99996 9.07416L9.60496 11.25L8.64829 7.14916L11.8333 4.38999L7.63913 4.03416L5.99996 0.166656L4.36079 4.03416L0.166626 4.38999L3.35163 7.14916L2.39496 11.25L5.99996 9.07416Z" fill="#F6731C"/>
+    </symbol>
+
+    <symbol id="star" viewBox="0 0 482.207 482.207" >
+<path d="M482.207,186.973l-159.699-33.705L241.104,11.803l-81.404,141.465L0,186.973l109.388,121.134L92.094,470.404l149.01-66.6
+	l149.01,66.6l-17.294-162.296L482.207,186.973z M241.104,370.943l-113.654,50.798l13.191-123.788l-83.433-92.393l121.807-25.707
+	l62.09-107.9l62.09,107.9L425,205.561l-83.433,92.393l13.191,123.788L241.104,370.943z"/>
+</symbol>
+
+
+
+
+
+
+
+
+
+
+</svg>
