@@ -197,11 +197,11 @@ body {
     text-decoration: none;
     color: #7EB105;
 }
-.discript-memory{
+.discript-memory {
     display: flex;
     justify-content: left;
-    margin: 8px 0 12px;
-    height: 8.73px;
+    margin: 8px 0 1px;
+    height: 18.73px;
 }
 .discript-memory a{
     display: none;
